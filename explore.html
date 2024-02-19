@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Africa Interior| Info</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <link rel="icon" href="images/afri-logo.png" type="image/gif/png">
+    </head>
+    <body>
+        <header class="header">
+            <a href="index.html" class="logo">Africa <span>Interior</span></a>
+            <a class="menu fas fa-bars"></a>
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="https://t.me/africa_interior">Our-works</a>
+                <a href="explore-amh.html">Language(ኣማ)</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+        <Section class="home" id="home">
+            <h1>Interior Wood Work</h1>
+            <p>As we mentioned earlier Africa Interior Designs is a great company with creative ideas to your house, company and work place we recommend to download the PDF below and learn more about us.</p>
+            <a href="Africa Interior-Info PDF.pdf" class="btn" download>Download PDF</a>
+        </Section>
+        <section class="about" id="about">
+            <div class="box-container">
+                <div class="box">
+                    <h1 class="heading">About-us</h1>
+                    <p>Africa interior design specializes in interior and architecteural design as well as the importation and distribution of finishing products.</p>
+                    <p>We create the most contemporary, innovative and incredibly simple and lovely designs applying the finishing works exatly in accordance with the design and maintaining the standard and quality in our priceless wood working workshop and woodwork at our show room and marketing our products.</p>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="images/about.png">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="services" id="services">
+            <h1 class="heading">Services</h1>
+            <div class="box-container">
+                <div class="box">
+                    <img src="images/sofa.png">
+                    <h3>Furniture</h3>
+                    <p>Our company will make entire furniture work for your office, hotel and etc.</p>
+                </div>
+
+                <div class="box">
+                    <img src="images/ideas.png">
+                    <h3>Creativity</h3>
+                    <p>This company will provide works that are never done before just contact us and you will see it your self.</p>
+                </div>
+
+                <div class="box">
+                    <img src="images/house.png">
+                    <h3>Home Designs</h3>
+                    <p>Africa Interiors will aslo work kitchen cabinets and amazing doors for you home.</p>
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <h1 class="heading">Contact</h1>
+            <div class="box-container">
+                <div class="box">
+                    <h3>Location</h3>
+                    <p><a href="https://maps.app.goo.gl/jkQkXipLS5EmXQJj8">Addis Ababa, Bole(clickme)</a></p>
+                    <h3>E-mail</h3>
+                    <p><a href="https://mail.google.com/mail/u/0/#search/africawoods21%40gmail.com">africawoods21@gmail.com</a></p>
+                    <h3>Phone number</h3>
+                    <p><a href="tel: +251 9 53 27 87 45">+251 9 53 27 87 45</a> <br> <a href="tel: +251716063317">+251 7 16 06 33 17</a></p>
+                    <h3>Our work by image</h3>
+                    <p><a href="https://t.me/africa_interior">Get image</a></p>
+                </div>
+
+                <form>
+                    <div class="inputbox">
+                        <input type="text" placeholder="Name">
+                        <input type="text" placeholder="Phone number">
+                    </div>
+
+                    <textarea name="" placeholder="please type your message here" id="" cols="30" rows="10"></textarea>
+                    <input type="submit" value="send message" class="btn" onclick="showalert()">
+                </form>
+            </div>
+        </section>
+        <section class="footer">
+            <a href="#" class="logo">Africa <span>Interior.</span></a>
+            <p>This website was designed by <a href="https://www.instagram.com/ahadu_1617?igsh=Zmp6MzRxZW1qMTF2">Ahadu tech</a> <span>copyright© Africa Interior. | 2024</span><br>for more info follow us on facebook, Telegram and Instagram.</p>
+            <div class="socials">
+
+               <a href="www.facebook.com"><img src="images/fblogo.png"></a>
+                <a href="https://t.me/africa_interior"><img src="images/tgs.png"></a>
+                <a href="https://www.instagram.com/abinetzinabu?igsh=MTNkdG4zNmkzYXZkdA=="><img src="images/instagram.png"></a>
+            </div>
+        </section>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body>
+    <style>
+        *{
+            font-family: "comic sans mcs",cursive,sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            outline: none;
+            border: none;
+            text-decoration: none;
+            text-transform: capitalize;
+            transition: 0.2s linear;
+        }
+
+        :root{
+            --black: #16161d;
+            --white: #fff;
+            --light-color: #808080;
+            --light-bg: #f5f5f8;
+            --google-color: #4285f4;
+            --twitter-color: #1da1f2;
+            --youtube-color: #ff0000;
+            --linkedin-color: #0e76a8;
+        }
+
+        html{
+            font-size: 62.5%;
+            overflow-x: hidden;
+            scroll-behavior: smooth;
+            scroll-padding-top: 6rem;
+        }
+
+        section{
+            padding: 5rem 9%;
+        }
+
+        .btn{
+            color: var(--white);
+            font-weight: 400;
+            font-size: 1.7rem;
+            border: 0.1rem solid var(--white);
+            border-radius: 10rem;
+            padding: 1.5rem 4rem;
+        }
+
+        .btn:hover{
+            background: var(--black);
+            color: var(--white);
+        }
+
+        .heading{
+            font-size: 3.5rem;
+            font-weight: 500;
+            margin-bottom: 5rem;
+            text-align: center;
+        }
+
+        .home{
+            height: 100vh;
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),  url('images/back.jpg') no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-flow: column;
+            text-align: center;
+        }
+
+        .home h1{
+            font-size: 6rem;
+            font-weight: 400;
+            margin-bottom: 3rem;
+            color: var(--white);
+        }
+
+        .home p{
+            font-size: 1.7rem;
+            font-weight: 400;
+            margin-bottom: 3rem;
+            text-transform: none;
+            color: var(--white);
+        }
+
+        .header{
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            padding: 5rem 9%;
+            display: flex;
+            align-items: center;
+            z-index: 100;
+        }
+
+        .header.active{
+            background: var(--white);
+            padding: 3rem 9%;
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+        }
+
+        .header.active .logo,
+        .header.active .navbar a,
+        .header.active .menu{
+            color: var(--black);
+        }
+
+        .header .logo{
+            margin-right: auto;
+            font-size: 2rem;
+            color: var(--white);
+            font-weight: 700;
+        }
+
+        .header .logo span{
+            color: orange;
+        }
+
+        .header .navbar a{
+            font-size: 1.7rem;
+            color: var(--white);
+            margin-left: 3rem;
+        }
+
+        .header .menu{
+            font-size: 2rem;
+            color: var(--white);
+            display: none;
+        }
+
+        .about .box-container .box .image{
+            height: 40rem;
+        }
+
+        .about .box-container .box .image img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .about .box-container{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+            gap: 2rem;
+        }
+
+        .about .box-container .box p{
+            font-size: 1.7rem;
+            line-height: 1.5;
+            margin-bottom: 1.5rem;
+            color: var(--light-color);
+            text-transform: none;
+        }
+
+        .services{
+            background: var(--light-bg);
+        }
+
+        .services .box-container{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+            gap: 5rem;
+        }
+
+        .services .box-container .box{
+            background-color: var(--white);
+            text-align: center;
+            border-radius: 1rem;
+            padding: 3rem;
+        }
+
+        .services .box-container .box img{
+            margin-bottom: 2rem;
+        }
+
+        .services .box-container .box h3{
+            margin-bottom: 2rem;
+            font-size: 2rem;
+        }
+
+        .services .box-container .box p{
+            font-size: 1.5rem;
+            line-height: 2;
+            color: var(--light-color);
+        }
+
+        .services .box-container .box:hover{
+            background: var(--black);
+            transition: 1.5s ease-in-out;
+        }
+
+        .services .box-container .box:hover h3,
+        .services .box-container .box:hover p{
+            color: #fff;
+        }
+
+        .services .box-container .box:hover img{
+            filter: invert(100%);
+        }
+
+        
+        .contact{
+            background: var(--light-bg);
+        }
+
+        .contact .box-container{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 3rem;
+        }
+
+        .contact .box-container .box{
+            width: 30rem;
+        }
+
+        .contact .box-container .box h3{
+            font-size: 1.7rem;
+            margin-bottom: 1rem;
+        }
+
+        .contact .box-container .box p{
+            font-size: 1.5rem;
+            color: var(--light-color);
+            margin-bottom: 2rem;
+        }
+
+        .contact .box-container .box a{
+            text-decoration: none;
+            color: orange;
+        }
+
+        .contact .box-container .box a:hover{
+            color: grey;
+            transition: 0.5s ease-in-out;
+            letter-spacing: 1px;
+        }
+
+        .contact .box-container form{
+            flex: 1 1 42rem;
+        }
+
+        .contact .box-container form .inputbox{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .contact .box-container form .inputbox input{
+            width: 49%;
+        }
+
+        .contact .box-container form .inputbox input,
+        .contact .box-container form textarea{
+            border-radius: 5rem;
+            padding: 1.2rem 1.8rem;
+            font-size: 1.5rem;
+            color: var(--black);
+            margin: 0.7rem 0;
+        }
+
+        .contact .box-container form textarea{
+            width: 100%;
+            border-radius: 1rem;
+            resize: none;
+            height: 25rem;
+        }
+
+        .contact .box-container form .btn{
+            color: var(--black);
+            background: var(--white);
+            border: 0.1rem solid var(--black);
+            margin-top: 1rem;
+        }
+
+        .contact .box-container form .btn:hover{
+            background: var(--black);
+            color: var(--white);
+        }
+
+        .footer{
+            text-align: center;
+        }
+
+        .footer .logo{
+            font-size: 2rem;
+            color: var(--black);
+            font-weight: 700;
+        }
+
+        .footer .logo span{
+            color: orange;
+            font-weight: normal;
+        }
+
+        .footer p{
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            font-size: 1.7rem;
+            color: grey;
+        }
+
+        .footer .socials ion-icon{
+            font-size: 2.5rem;
+            color: var(--black);
+            background: var(--light-bg);
+            border-radius: 50%;
+            padding: 1rem;
+            margin: 0.5rem;
+            cursor: pointer;
+        }
+
+        .footer .socials ion-icon:nth-child(1){
+            color: var(--google-color);
+        }
+
+        .footer .socials ion-icon:nth-child(1):hover{
+            background: var(--google-color);
+            color: #fff;
+        }
+
+        .footer .socials ion-icon:nth-child(2){
+            color: var(--youtube-color);
+        }
+
+        .footer .socials ion-icon:nth-child(2):hover{
+            background: var(--youtube-color);
+            color: #fff;
+        }
+
+        .footer .socials ion-icon:nth-child(3){
+            color: purple;
+        }
+
+        .footer .socials ion-icon:nth-child(3):hover{
+            background: purple;
+            color: #fff;
+        }
+
+        .footer span{
+            color: orangered;
+        }
+
+        @media (max-width:1200px){
+            .header{
+                padding: 2rem;
+            }
+
+            .header.active{
+                padding: 2rem;
+            }
+
+            section{
+                padding: 3rem 2rem;
+            }
+
+            .home h1{
+                font-size: 5rem;
+            }
+        }
+
+        @media (max-width: 991px){
+            html{
+                font-size: 60%;
+            }
+        }
+
+        @media (max-width: 768px){
+            .header .menu{
+                display: block;
+            }
+
+            .header .navbar{
+                position: fixed;
+                top: 6.4rem;
+                left: 0;
+                right: 0;
+                background: #fff;
+                display: flex;
+                flex-flow: column;
+                text-align: center;
+                transform: translateX(100%);
+            }
+
+            .header .navbar.show{
+                transform: translateX(0);
+            }
+
+            .header .navbar a{
+                color: var(--black);
+                margin: 0;
+                font-size: 2rem;
+                margin: 2rem 0;
+            }
+        }
+
+        @media (max-width: 450px){
+            html{
+                font-size: 55%;
+            }
+        }
+    </style>
+    <script>
+
+        const navbar = document.querySelector('.header .navbar');
+        const menuButton = document.querySelector('.header .menu');
+
+        menuButton.addEventListener('click', () => {
+            navbar.classList.toggle('show');
+            menuButton.classList.toggle('fa-close');
+        })
+
+        document.onscroll = () => {
+            navbar.classList.remove('show');
+            menuButton.classList.remove('fa-close');
+
+            if(window.scrollY > 0) {
+                document.querySelector('.header').classList.add('active');
+            } else {
+                document.querySelector('.header').classList.remove('active');
+            }
+        }
+
+        document.onload = () => {
+            if(window.scrollY > 0) {
+                document.querySelector('.header').classList.add('active');
+            } else {
+                document.querySelector('.header').classList.remove('active');
+            }
+        }
+
+        function showalert() {
+            alert('server 8080 is not responding please connect again and try again later, thanks 😉');
+        }
+    </script>
+</html>
